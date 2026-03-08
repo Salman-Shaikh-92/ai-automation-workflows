@@ -1,62 +1,52 @@
 # AI Automation Workflows
 
-This repository contains automation workflows created using AI tools and no-code / low-code automation platforms.  
-The goal of these workflows is to automate repetitive tasks and integrate multiple tools together.
+A collection of automation workflows built using no-code and low-code tools to automate business processes such as lead management, notifications, and data handling.
+
+These workflows demonstrate how different applications can be connected to create automated systems that reduce manual work and improve efficiency.
 
 ---
 
-## 🚀 Automation Projects
+## Project Overview
 
-### 1. Instagram Upload Automation
-Basic automation workflow that automatically uploads Instagram posts and reels.
+This repository contains automation scenarios that integrate multiple tools to automate real-world tasks such as:
 
-**Features**
-- Automates Instagram content upload
-- Supports image posts and reels
-- Reduces manual posting effort
-
----
-
-### 2. CRM Automation Workflow
-Automation workflow for managing leads and organizing data automatically.
-
-**Features**
-- Automates lead management
-- Organizes CRM data
-- Reduces manual work
+- Capturing leads from forms
+- Storing and managing data
+- Sending automated email notifications
+- Updating records automatically
 
 ---
 
-### 3. AI Based Workflow Experiments
-Experiments with AI-assisted workflows for improving automation systems.
+## Lead Management Automation
+
+This workflow automatically manages leads submitted through a form.
+
+### Workflow Process
+
+1. A user submits a lead through **Google Forms**
+2. The system checks if the lead already exists in **Google Sheets**
+3. If the lead is new:
+   - A new row is added in the sheet
+   - A confirmation email is sent
+4. If the lead already exists:
+   - The existing record is updated
+   - A notification email is sent
 
 ---
 
-## ⚙️ Tools & Technologies
+## Tools Used
 
-- AI Tools
-- No-Code / Low-Code Automation Platforms
-- API Integrations
-- Workflow Automation
-
----
-
-## 📌 Purpose of this Repository
-
-This repository demonstrates how automation tools can be used to build workflows that simplify tasks such as social media management, data handling, and system integrations.
+- Google Forms
+- Google Sheets
+- Gmail
+- Automation platform
 
 ---
 
-## 🌱 Currently Exploring
+## Workflow Architecture
 
-- Python Automation
-- Backend Development
-- Advanced AI Automation
+![Lead Automation Workflow](images/lead-automation-workflow.png)
 
 ---
 
-## 👨‍💻 Author
-
-**Salman Shaikh**  
-BCA Final Year Student  
-Interested in Python, Backend Development and AI Automation
+## Folder Structure
