@@ -50,3 +50,37 @@ This workflow automatically manages leads submitted through a form.
 ---
 
 ## Folder Structure
+ai-automation-workflows
+│
+README.md
+│
+images/
+lead-automation-workflow.png
+│
+workflows/
+lead-automation.json
+
+
+---
+
+## Use Cases
+
+- Lead generation automation
+- CRM data management
+- Automated email notifications
+- Business workflow automation
+
+---
+
+## Future Improvements
+
+- Add AI based lead classification
+- Integrate CRM systems
+- Add chatbot based lead capture
+
+---
+
+## Author
+
+Salman  
+Aspiring AI Automation Developer
